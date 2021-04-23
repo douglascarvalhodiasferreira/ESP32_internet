@@ -1,0 +1,71 @@
+#temp{/* id CONTEINER TEMP*/
+  border: solid #000 2px;
+  border-radius: 10px;
+  background-color: green;
+  width: 400px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+}
+#cano{    /* id CONTEINER geral CANOS */ 
+  border: solid #000 2px;
+  border-radius: 10px;
+  background-color: rgb(216, 223, 224);
+  display: inline-block;
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  text-align: center;
+}
+
+.cano{/*circulos no cano*/
+  border: ridge #000 1px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  }
+
+#marc_cano{/* id conteiner dentro do conteiner com as marcações*/
+  text-align: center;
+  padding:0px 25px 0px 0px;
+  margin-right: 0px;
+  margin-left: 0px;}
+
+.titulo{/* CLASSE DOS TITULOS*/
+  padding-top: 10px;
+  font-size: 45px;
+  text-align: center;
+  position: relative;}
+
+
+
+.valor{ /* id VALOR DA TEMPERATURA*/
+  font-size:200px;
+  position:absolute;
+  left:10px;
+  top:20px;}
+
+#grandeza{/* id grau celso*/
+ font-size:100px;
+ position:absolute;
+  left:220px;
+  top:115px;}
+
+  #ultimaA_t{ /* id hora-data ultima atualização*/
+  position: absolute;
+  left: 10px;
+  top: 230px;}
+
+#ultimaA_c{/* id hora-data ultima atualização cano*/
+  position: absolute;
+  left: 10px;
+  top: 230px;
+  font-size: 15px;}
+
+.label{ /* casse das escritas dentro do cano*/
+  font-size:35px;
+
+}

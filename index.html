@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>ESP32_casa</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="script.js"></script>
+	
+
+</head>
+
+<body>
+	<section >
+		
+			<div id="temp">
+				<span class="titulo">TEMPERATURA</span>
+				<span class="valor" id="vtemp"></span>
+				<span id="grandeza">ºC</span><br/>
+				<span id="ultimaA_t"></span>
+			</div>
+		
+		
+		<div id="cano">
+			<div class="titulo">CANALETA</div><br/>
+			<div id="marc_cano">
+				<label class="label">CANO1</label>
+					<div class="cano" id="cano1"></div>
+				<label class="label">CANO2</label>
+					<div class="cano" id="cano2"></div><br/>
+				<label class="label">CANO3</label>
+					<div class="cano" id="cano3"></div>
+				<label class="label">CANO4</label>
+					<div class="cano" id="cano4"></div><br/>
+				<span id="ultimaA_c"></span>
+			</div>
+		</div><br/>
+		<div id="chart_div" style="width: 500px; height: 500px;"></div>
+    </section>
+    
+  </body>
+</html>
+

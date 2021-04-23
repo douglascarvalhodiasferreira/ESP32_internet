@@ -1,0 +1,15 @@
+{
+    "name": "esp32/composer-php",
+    "description": "Projeto horta automatica",
+    "authors": [
+        {
+            "name": "Douglas Ferreira",
+            "email": "douglascarvalhodias@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+
+    }
+
+}
