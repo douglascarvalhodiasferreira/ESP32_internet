@@ -8,7 +8,7 @@ var j_tempA;
 entrada="";
 
 
-alert("teste");
+
 
 
 window.addEventListener("load", valor_cor);//ASSIM QUE CARREGAR A PAGINA CHAMA A FUNÇÃO valor_cor
@@ -53,7 +53,7 @@ window.addEventListener("load", valor_cor);//ASSIM QUE CARREGAR A PAGINA CHAMA A
 
 
         setInterval(valor_cano, 15000); // chama a vunção valor_cano a cada 5 segundos
-//valor_cano();
+valor_cano();
         function valor_cano (){ // função que pega os parametros do cano enviado pelo ESP para o banco de dados na pagina salvarc.php
           fetch('salvarc.php').then(function(response) { // pede uma resposta a pagina salvarc.php
           //var resposta = response[0][0];
@@ -65,7 +65,7 @@ window.addEventListener("load", valor_cor);//ASSIM QUE CARREGAR A PAGINA CHAMA A
             cano3=data[2];
             cano4=data[3];
             var data_hora=data[4];
-
+            alert(cano1);
             document.getElementById("ultimaA_c").innerHTML=data_hora // manda para pagina a ultima atualização do banco de dados dos canos
             
             mudacano(); // chama a função que muda a cor dos ciculos indicativo se está passando ou não agua nos canos da pagina

@@ -1,6 +1,6 @@
 <?php  
 
-require_once "./vendor/autoload.php"; // arquivos composer
+//require_once "./vendor/autoload.php"; // arquivos composer
 
 
 include('conexao.php'); //inclui o inicio da conexão com o banco de dado
